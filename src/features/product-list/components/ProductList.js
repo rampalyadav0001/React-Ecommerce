@@ -1,7 +1,7 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState, Fragment, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid';
-import { decrement, incrementAsync, selectCount } from '../ProductSlice';
+import { fetchAllProductsAsync, selectAllProducts } from '../ProductSlice';
 import { Dialog, Disclosure, Menu, Transition } from '@headlessui/react';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 
@@ -137,7 +137,7 @@ const oldproducts = [
   // More products...
 ];
 
-const products = [
+const old2products = [
   {
     id: 1,
     title: 'iPhone 9',
@@ -715,9 +715,13 @@ const products = [
 ];
 
 export default function ProductList() {
-  const count = useSelector(selectCount);
+  // const count = useSelector(selectCount);
   const dispatch = useDispatch();
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const products=useSelector(selectAllProducts)
+  useEffect(()=>{
+    dispatch(fetchAllProductsAsync())
+  },[dispatch])
 
   return (
     <div>
