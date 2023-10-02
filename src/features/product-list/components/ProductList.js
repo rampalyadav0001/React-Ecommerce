@@ -265,6 +265,7 @@ const oldproducts = [
 ];
 
 export default function ProductList() {
+  
   // const count = useSelector(selectCount);
   const dispatch = useDispatch();
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
