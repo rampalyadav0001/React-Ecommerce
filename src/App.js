@@ -6,7 +6,7 @@ import SignUpPage from './pages/SignUpPage';
 import LoginPage from './pages/LoginPage';
 import { Counter } from './features/counter/Counter';
 import ProductList from './features/product-list/components/ProductList';
-import ProductDetailsPage  from './pages/ProductDetailPage';
+import ProductDetailsPage from './pages/ProductDetailPage';
 import './App.css';
 
 import {
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
     element: <Checkout></Checkout>,
   },
   {
-    path: '/product-detail',
+    path: '/product-detail/:id',
     element: <ProductDetailsPage></ProductDetailsPage>,
   },
 ]);
