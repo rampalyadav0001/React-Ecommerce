@@ -2359,15 +2359,6 @@
       "role": "user",
       "addresses": [
         {
-          "name": "Abhishek Rathore",
-          "email": "test@gmail.com",
-          "phone": "1234567788",
-          "street": "11th Main",
-          "city": "Banaglore",
-          "state": "Karnataka",
-          "pinCode": "560034"
-        },
-        {
           "name": "Jack Morris",
           "email": "jack@gmail.com",
           "city": "Delhi",
@@ -2426,23 +2417,22 @@
       "id": 1
     },
     {
-      "title": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 1111,
-      "discountPercentage": 17.94,
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1999,
+      "discountPercentage": 11.02,
       "rating": 0,
-      "stock": 34,
+      "stock": 83,
       "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
       "images": [
-        "https://i.dummyjson.com/data/products/2/1.jpg",
-        "https://i.dummyjson.com/data/products/2/2.jpg",
-        "https://i.dummyjson.com/data/products/2/3.jpg",
-        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+        "https://i.dummyjson.com/data/products/6/1.png",
+        "https://i.dummyjson.com/data/products/6/2.jpg",
+        "https://i.dummyjson.com/data/products/6/3.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png"
       ],
-      "deleted": true,
-      "productId": 2,
+      "productId": 6,
       "quantity": 1,
       "user": 1,
       "id": 2
@@ -2479,21 +2469,21 @@
         "password": "Qwerty123",
         "addresses": [
           {
-            "name": "Abhishek R",
+            "name": "Rampal",
             "email": "test@gmail.com",
             "phone": "1234567788",
             "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
+            "city": "delhi",
+            "state": "delhi",
             "pinCode": "560034"
           },
           {
-            "name": "Abhishek R",
+            "name": "Rampal",
             "email": "test@gmail.com",
             "phone": "1234567788",
             "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
+            "city": "delhi",
+            "state": "delhi",
             "pinCode": "560034"
           }
         ],
@@ -2501,15 +2491,15 @@
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "Abhishek R",
+        "name": "Rampal",
         "email": "test@gmail.com",
         "phone": "1234567788",
         "street": "11th Main",
-        "city": "Banaglore",
-        "state": "Karnataka",
+        "city": "delhi",
+        "state": "delhi",
         "pinCode": "560034"
       },
-      "status": "dispatched",
+      "status": "delivered",
       "id": 1
     },
     {
@@ -2542,21 +2532,21 @@
         "password": "Qwerty123",
         "addresses": [
           {
-            "name": "Abhishek R",
+            "name": "Rampal",
             "email": "test@gmail.com",
             "phone": "1234567788",
             "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
+            "city": "delhi",
+            "state": "delhi",
             "pinCode": "560034"
           },
           {
-            "name": "Abhishek R",
+            "name": "Rampal",
             "email": "test@gmail.com",
             "phone": "1234567788",
             "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
+            "city": "delhi",
+            "state": "delhi",
             "pinCode": "560034"
           }
         ],
@@ -2564,12 +2554,12 @@
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "Abhishek R",
+        "name": "Rampal",
         "email": "test@gmail.com",
         "phone": "1234567788",
         "street": "11th Main",
-        "city": "Banaglore",
-        "state": "Karnataka",
+        "city": "delhi",
+        "state": "delhi",
         "pinCode": "560034"
       },
       "status": "delivered",
@@ -2642,7 +2632,7 @@
         "state": "Maharastra",
         "pinCode": "220001"
       },
-      "status": "cancelled",
+      "status": "delivered",
       "id": 3
     },
     {
@@ -2676,21 +2666,21 @@
         "password": "Qwerty123",
         "addresses": [
           {
-            "name": "Abhishek R",
+            "name": "Rampal",
             "email": "test@gmail.com",
             "phone": "1234567788",
             "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
+            "city": "delhi",
+            "state": "delhi",
             "pinCode": "560034"
           },
           {
-            "name": "Abhishek R",
+            "name": "Rampal",
             "email": "test@gmail.com",
             "phone": "1234567788",
             "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
+            "city": "delhi",
+            "state": "delhi",
             "pinCode": "560034"
           }
         ],
@@ -2698,12 +2688,12 @@
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "Abhishek R",
+        "name": "Rampal",
         "email": "test@gmail.com",
         "phone": "1234567788",
         "street": "11th Main",
-        "city": "Banaglore",
-        "state": "Karnataka",
+        "city": "delhi",
+        "state": "delhi",
         "pinCode": "560034"
       },
       "status": "pending",
@@ -2739,12 +2729,12 @@
         "password": "Qwerty123",
         "addresses": [
           {
-            "name": "Abhishek Rathore",
+            "name": "Rampalathore",
             "email": "test@gmail.com",
             "phone": "1234567788",
             "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
+            "city": "delhi",
+            "state": "delhi",
             "pinCode": "560034"
           },
           {
@@ -2761,12 +2751,12 @@
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "Abhishek Rathore",
+        "name": "Rampalathore",
         "email": "test@gmail.com",
         "phone": "1234567788",
         "street": "11th Main",
-        "city": "Banaglore",
-        "state": "Karnataka",
+        "city": "delhi",
+        "state": "delhi",
         "pinCode": "560034"
       },
       "status": "pending",
@@ -2803,12 +2793,12 @@
         "role": "user",
         "addresses": [
           {
-            "name": "Abhishek Rathore",
+            "name": "Rampal",
             "email": "test@gmail.com",
             "phone": "1234567788",
             "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
+            "city": "delhi",
+            "state": "delhi",
             "pinCode": "560034"
           },
           {
@@ -3030,7 +3020,7 @@
         "state": "Maharastra",
         "pinCode": "220001"
       },
-      "status": "pending",
+      "status": "dispatched",
       "id": 9
     },
     {
@@ -3086,7 +3076,7 @@
         "state": "Maharastra",
         "pinCode": "220001"
       },
-      "status": "pending",
+      "status": "dispatched",
       "id": 10
     },
     {
@@ -3142,8 +3132,164 @@
         "state": "Maharastra",
         "pinCode": "220001"
       },
-      "status": "pending",
+      "status": "dispatched",
       "id": 11
+    },
+    {
+      "items": [
+        {
+          "title": "MacBook Pro",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 1999,
+          "discountPercentage": 11.02,
+          "rating": 0,
+          "stock": 83,
+          "brand": "Apple",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+          "images": [
+            "https://i.dummyjson.com/data/products/6/1.png",
+            "https://i.dummyjson.com/data/products/6/2.jpg",
+            "https://i.dummyjson.com/data/products/6/3.png",
+            "https://i.dummyjson.com/data/products/6/thumbnail.png"
+          ],
+          "productId": 6,
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        },
+        {
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "productId": 8,
+          "quantity": 3,
+          "user": 1,
+          "id": 4
+        }
+      ],
+      "totalAmount": 5817,
+      "totalItems": 4,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Jack Morris",
+            "email": "jack@gmail.com",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110006",
+            "phone": "12312331232",
+            "street": "12th cross"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jack Morris",
+        "email": "jack@gmail.com",
+        "city": "Delhi",
+        "state": "Delhi",
+        "pinCode": "110006",
+        "phone": "12312331232",
+        "street": "12th cross"
+      },
+      "status": "dispatched",
+      "id": 12
+    },
+    {
+      "items": [
+        {
+          "title": "MacBook Pro",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 1999,
+          "discountPercentage": 11.02,
+          "rating": 0,
+          "stock": 83,
+          "brand": "Apple",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+          "images": [
+            "https://i.dummyjson.com/data/products/6/1.png",
+            "https://i.dummyjson.com/data/products/6/2.jpg",
+            "https://i.dummyjson.com/data/products/6/3.png",
+            "https://i.dummyjson.com/data/products/6/thumbnail.png"
+          ],
+          "productId": 6,
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        },
+        {
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "productId": 8,
+          "quantity": 2,
+          "user": 1,
+          "id": 3
+        }
+      ],
+      "totalAmount": 4471,
+      "totalItems": 3,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Jack Morris",
+            "email": "jack@gmail.com",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110006",
+            "phone": "12312331232",
+            "street": "12th cross"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jack Morris",
+        "email": "jack@gmail.com",
+        "city": "Delhi",
+        "state": "Delhi",
+        "pinCode": "110006",
+        "phone": "12312331232",
+        "street": "12th cross"
+      },
+      "status": "dispatched",
+      "id": 13
     }
   ]
 }

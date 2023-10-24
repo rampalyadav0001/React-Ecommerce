@@ -29,10 +29,11 @@ const sizes = [
 ];
 
 const highlights = [
-  'Hand cut and sewn locally',
-  'Dyed with our proprietary colors',
-  'Pre-washed & pre-shrunk',
-  'Ultra-soft 100% cotton',
+  // 'Hand cut and sewn locally',
+  // 'Dyed with our proprietary colors',
+  // 'Pre-washed & pre-shrunk',
+  // 'Ultra-soft 100% cotton',
+ ' Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero saepe, quas doloremque nobis consequuntur voluptatibus! Quos tenetur sunt neque accusamus saepe quae vitae delectus ut a! Eaque est error enim.'
 ];
 
 function classNames(...classes) {
@@ -246,7 +247,7 @@ export default function ProductDetail() {
                 </div>
 
                 {/* Sizes */}
-                <div className="mt-10">
+               {/* <div className="mt-10">
                   <div className="flex items-center justify-between">
                     <h3 className="text-sm font-medium text-gray-900">Size</h3>
                     <a
@@ -324,7 +325,7 @@ export default function ProductDetail() {
                       ))}
                     </div>
                   </RadioGroup>
-                </div>
+                </div>*/}
 
                 <button
                   onClick={handleCart}
